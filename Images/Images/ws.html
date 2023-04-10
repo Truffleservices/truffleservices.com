@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic" rel="stylesheet" />
+
+	<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+	
+	<title>Truffles</title>
+
+    
+<style>
+
+
+ body {
+   font-family: "Futura PT", sans-serif;
+   font-style:normal;
+   font-weight: 500;
+   background-color: #161616;
+   background-image: url('fullbg.png');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   overflow-x: hidden;
+   display:grid ;
+}
+    
+.menu .icon {
+   margin-top: 20px;
+   margin-left: 470px;
+}
+
+    
+.sidenav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #314C7A;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding: 20px 20px 15px 40px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #85C1C1;
+  display: block;
+  float: left;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+   color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  font-size: 36px;
+  margin-left: 40px;
+}
+
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+
+    <body>
+
+    <!-- menu bar -->
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+    <div id="main" class="menu">
+    <span style="font-size:30px;cursor:pointer;margin-left: 95%;bottom: 10px;" onclick="openNav()">
+	<img class="icon" src="menu.png" width="35" height="25"> </img>
+	</span>
+    </div>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+	  document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+
+	<!-- Signin button -->
+	<div id="mySignin" class="signin">
+	<button class="button" onclick="window.location.href = 'signinform.html';">Sign in</button>
+	 </div>
+	
+    <style>
+
+	
+button{
+  text-align: center;
+  margin: 15px 120px;
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 500;
+  background: #314C7A;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #85C1C1;
+  box-shadow: 2px 2px 5px #161616,
+              0px 0px 0px #31303073;
+  margin-top: -80px;
+  position: relative;
+  left: 600px;
+  top:-27px;
+}
+
+     button:focus{
+      color: #85C1C1;
+      box-shadow: inset 2px 2px 5px #26395f,
+                  inset -5px -5px 10px #314C7A;
+}
+
+
+
+		button:hover, button:active {font-size: 21px;}
+		a.closebtn:hover, a.closebtn:active {font-size: 250%;}
+
+
+
+   
+        
+    </style>
+       
+		
+	
+      
+    
+	<section class="section-intro">
+		<header>
+			<h1>TRUFFLES</h1>
+		</header>
+		
+		<h2>ACCOMMODATION  AND  CATERERS</h2>
+		
+	</section>
+
+	
+
+	<section class="about-section">
+	
+			<h3>
+				A  wholesome dining experience <br> along  with  accommodation
+			</h3>
+
+			
+	</section>
+
+	<!--Image Slide-->
+
+	<div id="rectangle"></div>
+	<div class="slider">
+		<div class="slide-track">
+		<div class="slide">
+		<img src="IMG-20230218-WA0010 1.png" height="200" width="330" alt="" />
+		</div>
+		<div class="slide">
+		<img src="IMG-20230218-WA0005 1.png" height="200" width="330" alt="" />
+		</div>
+		<div class="slide">
+		<img src="IMG-20230218-WA0013 1.png" height="200" width="330" alt="" />
+		</div>
+
+    <div class="slide">
+      <img src="IMG-20230218-WA0010 1.png" height="200" width="330" alt="" />
+      </div>
+      <div class="slide">
+      <img src="IMG-20230218-WA0005 1.png" height="200" width="330" alt="" />
+      </div>
+      <div class="slide">
+      <img src="IMG-20230218-WA0013 1.png" height="200" width="330" alt="" />
+      </div>
+
+       
+    <div class="slide">
+      <img src="IMG-20230218-WA0010 1.png" height="200" width="330" alt="" />
+      </div>
+      <div class="slide">
+      <img src="IMG-20230218-WA0005 1.png" height="200" width="330" alt="" />
+      </div>
+      <div class="slide">
+      <img src="IMG-20230218-WA0013 1.png" height="200" width="330" alt="" />
+      </div>
+		</div>
+	</div>
+
+
+  <!------>
+
+	<section class="about-us">
+		
+				<h3>
+					WHO WE ARE
+				</h3>
+        <div class="triangle-down"></div>     
+
+        <p id="one">
+          Truffles is driven with a purpose of creating a better catering services for all. We aim<br> 
+          to provide a laurel of service offerings to wide-ranging customers who are in the field<br> 
+          corporates, healthcare organizations, manufacturing locations, educational institutes and<br>
+          in remote environments. Our solutions range across service apartment, food & catering.<br>
+        </p>
+		
+
+        <p id="two">
+          Truffles is powered by a team of well qualified resources, where we endorse an inclusive,<br> 
+          diverse, fair, equal, and positive work environment to improve the quality of life of those<br>
+          we serve, every day. Approaches to food are changing and what we eat gradually<br>
+          defines who we are. We are affectionate about food and more so about authentic food.<br>
+          We felt we owed it to consumers to create something more than just a food service.<br>
+        </p>
+  </section>      
+
+  <section class="services">
+    
+     <h3>We  provide  Accommodation  with  food  services</h3>
+    
+
+     <p id="three">
+      We are in catering services field for 25 years.
+    </p>
+
+    <p id="four">
+      The food we cook at Truffles are prepared under a highly-skilled and professionally-trained culinary team. 
+    </p>
+   
+    <p id="five">
+    Our Head chef has a<br><br>
+    and
+    </p>
+
+    <p id="six">
+      9 years experience working in ITC Grand, Chennai<br><br>
+16 years of experience in Cognizant, Pune
+      </p>
+
+    <div class="blurbg">
+      <img src="blurbg.png" height="350" width="750" alt="" />
+      </div>
+  </section>
+
+
+<section class="lastpg">
+
+
+  <p id="a">
+    We plan catering service with a cost analysis, that takes into account
+  </p>
+
+  
+  <p id="b">
+    The menu, style of food offered, and the overall design goals. 
+  </p>
+  
+  <p id="c">
+    This will lead to cost benefits without affecting the quality of the food or speed of service.
+  </p>
+  
+  <p id="d">
+    We plan for efficiencies in every<br>aspect of the kitchen, food service<br>lines and other support spaces.    
+  </p>
+
+  <p id="e">
+    We choose the finest and fresh ingredients<br>to prepare food items. We offer customized<br> meals based on the client’s specification.    
+  </p>
+
+  <div class="line">
+  <img src="line.png" height="150" width="2" alt="" />
+</div>
+
+</section>
+
+</body>
+
+</html>
