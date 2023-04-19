@@ -418,7 +418,7 @@ body{
 		font-size: 1.5vw;
 		position: relative;
 		top: -2358px;
-		left: -100px;
+		left: -10px;
 		line-height: 50px;
 		letter-spacing: 2px;
 		word-spacing: 10px;
@@ -446,6 +446,93 @@ body{
 .line{
 	position: relative;
 	top: -3600px;
-	left:-40px;
-	align-items: center;
+	align-content: center;
+}
+
+.footer h3{
+	font-family: "Futura PT", sans-serif;;
+	text-align: center;
+	position: relative;
+	top: -3550px;
+	left:-10px;
+	color: #fff;
+	font-size: 2.5vw ;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	font-weight: 700;
+}
+
+.footer #a{
+	text-align: left;
+	position: relative;
+	top: -3500px;
+	left: -150px;
+	color: #fff;
+	font-size: 1.5vw ;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-weight: 400;
+}
+.footer a{
+	text-align: left;
+	font-style: normal;
+	position: relative;
+	top: -3610px;
+	left: 470px;
+	color: #fff;
+	font-size: 1.5vw ;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-weight: 400;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer a:hover{
+	color:#85C1C1;
+	
+}
+.footer #c{
+	text-align: left;
+	position: relative;
+	top: -3600px;
+	left: 800px;
+	color: #fff;
+	font-size: 1.5vw ;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-weight: 400;
+}
+.footer #d{
+	text-align: center;
+	position: relative;
+	top: -3550px;
+	left: 0;
+	color: #fff;
+	font-size: 1vw ;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-weight: 400;
+}
+.footer ,em{
+	font-style:normal;
+	color: #85C1C1;
+}
+
+.location{
+	position: relative;
+	top: -3755px;
+	left: -600px;
+	align-items: left;
+}
+.mail{
+	position: relative;
+	top: -3755px;
+	left: 320px;
+	align-items: right;
+}
+.phone{
+	position: relative;
+	top: -3692px;
+	left: 290px;
+	align-items: right;
 }
