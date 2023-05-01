@@ -33,8 +33,7 @@
    border: 0;
    overflow-x: hidden;
    display: grid;
-   min-height: 100vh;
-   max-height: 1000p;
+ 
 }
     
 .menu .icon {
@@ -57,7 +56,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 4;
   top: 0;
   right: 0;
   background-color: #314C7A;
@@ -77,6 +76,7 @@
   display: block;
   float: left;
   transition: 0.3s;
+  z-index:4;
 }
 
 .sidenav a:hover {
@@ -89,6 +89,7 @@
   left: 120px;
   font-size: 36px;
   margin-left: 40px;
+  z-index: 4;
 }
 
 
@@ -190,25 +191,25 @@ button{
 	
       
     
-	<section class="section-intro">
+	<div class="section-intro">
 		<header>
 			<h1>TRUFFLES</h1>
 		</header>
 		
 		<h2>ACCOMMODATION  AND  CATERERS</h2>
 		
-	</section>
+	</div>
 
 	
 
-	<section class="about-section">
+	<div class="about-section">
 	
 			<h3>
 				A  wholesome dining experience <br> along  with  accommodation
 			</h3>
 
 			
-	</section>
+    </div>
 
 	<!--Image Slide-->
 
@@ -251,7 +252,7 @@ button{
 
   <!------>
 
-	<section class="about-us">
+	<div class="about-us">
 		
 				<h3>
 					WHO WE ARE
@@ -273,9 +274,9 @@ button{
           defines who we are. We are affectionate about food and more so about authentic food.<br>
           We felt we owed it to consumers to create something more than just a food service.<br>
         </p>
-  </section>      
+      </div>      
 
-  <section class="services">
+  <div class="services">
     
      <h3>We  provide  Accommodation  with  food  services</h3>
     
@@ -301,10 +302,10 @@ button{
     <div class="blurbg">
       <img src="blurbg.png" height="350" width="750" alt="" />
       </div>
-  </section>
+  </div>
 
 
-<section class="lastpg">
+<div class="lastpg">
 
 
   <p id="a">
@@ -328,12 +329,12 @@ button{
     We choose the finest and fresh ingredients<br>to prepare food items. We offer customized<br> meals based on the client’s specification.    
   </p>
 
-  <img class="line" src="line.png" height="150" width="2" alt="" />
+  <img class="line" src="line.svg" height="130" width="2" alt="" />
 
 
-</section>
+</div>
 
-<section class="footer" style="pointer-events: all;">
+<div class="footer" style="pointer-events: all;">
  <h3>Truffles - Accommodation and Caterers</h3> 
 
  <p id="a">
@@ -358,7 +359,7 @@ button{
 <img class="mail" src="mail.svg" height="25" width="25" alt="" />
 <img class="phone" src="phone.svg" height="35" width="35" alt="" />
 
-</section>
+</div>
 
 </body>
 
